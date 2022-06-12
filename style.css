@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* toggal */
+.navbar-toggler{
+     font-size:20px;
+    line-height: 1;
+    outline: none;
+}
+.fa-bars{
+    color: #ffffff;
+}
+
+ 
+/* end  */
+
+/* .navbar--------- */
+
+
+ .tool{
+     font-size:12px;
+ }
+
+ .navbar{
+     background-color: rgb(18, 18, 124);
+    
+ }
+ .media-body{
+     color: white;
+ }
+
+
+  
+.nav-item.dropdown{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 5px;
+   
+ 
+}
+
+
+
+.nav-link {
+    padding: 5px 20px;
+}
+.dropdown-text{
+    color: black;
+    font-weight: 700;
+}
+  
+.navbar-toggler-icon{
+    color: white!important;
+}
+
+.input-group-text {
+   
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+
+}
+
+.box{
+    background-color: #ffffff;
+    margin-right: 5px;
+
+}
+.pm-thursday{
+    font-size: 10px;
+    color: black;
+    padding-right: 150px;
+    padding-top: 8px;
+    font-weight: 800;
+}
+.april{
+    font-size: 12px;
+    color:black;
+    padding-right: 150px;
+}
+  /* end--nav *--------------/
+ 
+   /* content */
+   
+.cus-btn{
+    padding: 5px 30px;
+    background-color: rgb(18, 18, 124);
+    color: white;
+}
+.cus-btn-user{
+    padding: 5px 30px;
+    background-color: rgb(2, 77, 15);
+    color: white;
+    
+}
+
+.cus-btn-yello{
+    padding: 5px 30px;
+    background-color: rgb(236, 203, 15);
+    color: white;
+    
+}
+
+.cus-btn-yello:hover{
+    color: white;
+}
+
+
+.cus-btn-red{
+    padding: 5px 30px;
+    background-color: rgb(168, 25, 0);
+    color: white;
+    
+}
+
+.cus-btn-red:hover{
+    color: white;    
+}
+.cus-btn:hover,.cus-btn-user:hover{
+    color: #ffffff;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+  
+
+
+ 
+
+
+
+    .icon-speed{
+       font-size: 60px;
+       color: #3f5974;
+   }
+ .cos-card{
+    
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border: 5px solid rgb(255, 255, 255);
+     position: relative;
+     margin-top: -5px;
+    
+
+    
+      
+   } 
+
+   .cos-card-sec{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+  
+     
+  } 
+
+.Carrency{
+    color: rgb(18, 18, 124);
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(18, 18, 124);
+    width:85px;
+    border-radius: 2px;
+   
+}
+.line{
+    background-color:rgb(18, 18, 124); 
+    width: 250px;
+    height: 30px;
+    color: white;
+}
+.heart{
+    padding-left: 230px;
+    padding-top: 10px;
+}
+ 
+/* end-call content */
+
+/* media quarey-- all device */
+@media only screen and (max-width: 993px) {
+    .box {
+        width:50%;
+        margin-top: 5px;
+        justify-content: left;
+       
+    }
+      
+
+    .nav-item.dropdown {
+        background-color: white;
+      
+          margin-right: 0px;
+           margin-left: 0px;
+          width: 50%; 
+         margin-top: 5px;
+    }
+    .april {
+        font-size: 9px;
+       
+        margin-bottom: 0;
+    } 
+    .pm-thursday{
+        margin-bottom: 0;
+    }
+ 
+}
+
+
+
+
+@media only screen and (max-width: 774px) {
+    .box {
+        width:50%;
+        margin-top: 7px;
+        justify-content: left;
+       
+       
+    }
+      
+
+    .nav-item.dropdown {
+        background-color: white;
+      
+          margin-right: 0px;
+           margin-left: 0px;
+          width: 50%; 
+          margin-top: 5px;
+    }
+  
+    .april {
+        font-size: 9px;
+       
+        margin-bottom: 0;
+    } 
+    .pm-thursday{
+        margin-bottom: 0;
+    }
+   
+    }
+
+
+
+
+@media only screen and (max-width: 668px) {
+    .box {
+        width:100%;
+        margin-top: 5px; 
+        justify-content: left;
+      
+       
+    }
+      
+
+    .nav-item.dropdown {
+        background-color: white;
+      
+          margin-right: 0px;
+           margin-left: 0px;
+            width: 100%; 
+           margin-top: 5px;
+    }
+    .april {
+        font-size: 9px;
+        color: black;
+        padding-right: 62px;
+        margin-bottom: 0;
+    } 
+    .pm-thursday{
+        margin-bottom: 0;
+    }
+ 
+ } 
+      
+/* end-----------media quarey-- all device */
+ 
